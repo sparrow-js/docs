@@ -33,19 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Try it Out",
+      "icon": "paper-plane-top",
+      "url": "https://www.wordix.so/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "discussions",
+      "icon": "comment",
       "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
