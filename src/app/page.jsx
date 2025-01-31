@@ -10,7 +10,7 @@ export default function IndexPage() {
         fontWeight: 'bold'
       }}
     >
-      Index page
+      wordix
     </h1>
   )
 }

@@ -5,9 +5,9 @@ export default {
   'docs': {
     type: 'page',
     title: 'Documentation'
-  },
-  blog: {
-    type: 'page',
-    title: 'Blog'
   }
+  // blog: {
+  //   type: 'page',
+  //   title: 'Blog'
+  // }
 }
