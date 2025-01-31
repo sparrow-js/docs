@@ -1,4 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import nextra from 'nextra'
 
-export default nextConfig;
+const withNextra = nextra({
+  latex: true,
+  search: {
+    codeblocks: false
+  },
+  contentDirBasePath: '/docs'
+})
+
+export default withNextra({
+  reactStrictMode: true
+})
