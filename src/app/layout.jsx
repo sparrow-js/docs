@@ -8,13 +8,13 @@ import 'nextra-theme-docs/style.css'
 export const metadata = {
   metadataBase: new URL('https://nextra.site'),
   title: {
-    template: '%s - Nextra'
+    template: '%s - Wordix'
   },
-  description: 'Nextra: the Next.js site builder',
-  applicationName: 'Nextra',
+  description: 'Wordix: the Next.js site builder',
+  applicationName: 'Wordix',
   generator: 'Next.js',
   appleWebApp: {
-    title: 'Nextra'
+    title: 'Wordix'
   },
   other: {
     'msapplication-TileImage': '/ms-icon-144x144.png',
