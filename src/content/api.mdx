@@ -1,7 +1,9 @@
 
 # API
 
+Access your Wordix app via the API.
 
+## JavaScript/TypeScript Implementation
 
 ```js
 
@@ -9,7 +11,6 @@ const API_KEY = "YOUR_API_KEY";
 const appId = "YOUR_APP_ID";
 
 async function main() {
-  console.log("Running app", appId);
   // Run the prompt, streaming the outputs as they're generated
   const r = await fetch(
     `https://app.wordix.so/api/released-app/${appId}/run`,
