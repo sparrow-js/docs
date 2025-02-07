@@ -36,7 +36,7 @@ export default async function RootLayout({ children }) {
       }
       // Next.js discord server
       // chatLink="https://discord.gg/hEM84NMkRv"
-      projectLink="https://github.com/shuding/nextra"
+      projectLink="https://github.com/sparrow-js/wordix"
     />
   )
 
@@ -49,7 +49,7 @@ export default async function RootLayout({ children }) {
           navbar={navbar}
           footer={<Footer>{new Date().getFullYear()} © Wordix.</Footer>}
           editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/shuding/nextra/blob/main/examples/docs"
+          docsRepositoryBase="https://github.com/sparrow-js/wordix/blob/main/examples/docs"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           pageMap={await getPageMap()}
         >
